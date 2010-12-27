@@ -1,0 +1,50 @@
+App-ZofCMS-Plugin-CurrentPageURI
+
+The module is a ZofCMS plugin that provides means to stuff your
+L<HTML::Template> template (or more accurately your C<{t}> special key)
+with three variables that are representations of the current page's
+webroot-relative URI, webroot-relative URI with query parameters
+attached, and finally the full URI (with the protocol, domain name,
+and query parameters).
+
+INSTALLATION
+
+To install this module, run the following commands:
+
+	perl Build.PL
+	./Build
+	./Build test
+	./Build install
+
+SUPPORT AND DOCUMENTATION
+
+After installing, you can find documentation for this module with the
+perldoc command.
+
+    perldoc App::ZofCMS::Plugin::CurrentPageURI
+
+You can also look for information at:
+
+    RT, CPAN's request tracker
+        http://rt.cpan.org/NoAuth/Bugs.html?Dist=App-ZofCMS-Plugin-CurrentPageURI
+
+    AnnoCPAN, Annotated CPAN documentation
+        http://annocpan.org/dist/App-ZofCMS-Plugin-CurrentPageURI
+
+    CPAN Ratings
+        http://cpanratings.perl.org/d/App-ZofCMS-Plugin-CurrentPageURI
+
+    Search CPAN
+        http://search.cpan.org/dist/App-ZofCMS-Plugin-CurrentPageURI/
+
+
+LICENSE AND COPYRIGHT
+
+Copyright (C) 2010 Zoffix Znet
+
+This program is free software; you can redistribute it and/or modify it
+under the terms of either: the GNU General Public License as published
+by the Free Software Foundation; or the Artistic License.
+
+See http://dev.perl.org/licenses/ for more information.
+

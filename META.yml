@@ -1,0 +1,23 @@
+---
+abstract: 'ZofCMS plugin to automatically add current page URI into templates'
+author:
+  - 'Zoffix Znet <zoffix@cpan.org>'
+build_requires:
+  Test::More: 0
+configure_requires:
+  Module::Build: 0.36
+generated_by: 'Module::Build version 0.3607'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: App-ZofCMS-Plugin-CurrentPageURI
+provides:
+  App::ZofCMS::Plugin::CurrentPageURI:
+    file: lib/App/ZofCMS/Plugin/CurrentPageURI.pm
+    version: 0.0101
+requires:
+  URI::Escape: 3.29
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.0101

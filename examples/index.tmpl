@@ -1,0 +1,16 @@
+{
+    body => \'index.tmpl',
+    title => '',
+
+    plugins => [
+        qw/CurrentPageURI/,
+    ],
+    
+    plug_current_page_uri => {
+        prefix => 'la_page_',
+        protocol => 'https://',
+        is_mod_rewrite => 0,
+        quiet_index => 1,
+    },
+}
+
